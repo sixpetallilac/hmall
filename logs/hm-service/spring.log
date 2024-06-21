@@ -122,3 +122,425 @@ com.hmall.common.exception.UnauthorizedException: 未登录
 15:23:22:301  INFO 1728 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 15:23:22:323  INFO 1728 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
 15:23:22:335  INFO 1728 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 2.799 seconds (JVM running for 3.439)
+21:55:20:320  INFO 30696 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.20.1 on cheeseee with PID 30696 (C:\Gayhub\hmall\hm-service\target\classes started by Cheeseee in C:\Gayhub\hmall)
+21:55:20:322 DEBUG 30696 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+21:55:20:323  INFO 30696 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+21:55:21:198  INFO 30696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+21:55:21:201  INFO 30696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:55:21:244  INFO 30696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+21:55:21:790  INFO 30696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21:55:21:801  INFO 30696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+21:55:21:801  INFO 30696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+21:55:21:973  INFO 30696 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+21:55:21:974  INFO 30696 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1604 ms
+21:55:24:760  INFO 30696 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+21:55:25:281  INFO 30696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21:55:25:283  INFO 30696 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+21:55:25:286  INFO 30696 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+21:55:25:325  INFO 30696 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+21:55:25:534  INFO 30696 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 5.659 seconds (JVM running for 6.921)
+21:55:29:032  INFO 21480 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.20.1 on cheeseee with PID 21480 (C:\Gayhub\hmall\item-service\target\classes started by Cheeseee in C:\Gayhub\hmall)
+21:55:29:033 DEBUG 21480 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+21:55:29:034  INFO 21480 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+21:55:29:845  INFO 21480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+21:55:29:848  INFO 21480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:55:29:875  INFO 21480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+21:55:30:329  INFO 21480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+21:55:30:338  INFO 21480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+21:55:30:338  INFO 21480 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+21:55:30:448  INFO 21480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+21:55:30:448  INFO 21480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1375 ms
+21:55:31:951  INFO 21480 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+21:55:32:412  INFO 21480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+21:55:32:413  INFO 21480 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+21:55:32:415  INFO 21480 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+21:55:32:450  INFO 21480 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+21:55:32:594  INFO 21480 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 3.965 seconds (JVM running for 5.293)
+22:29:45:950  INFO 3796 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.20.1 on cheeseee with PID 3796 (C:\Gayhub\hmall\item-service\target\classes started by Cheeseee in C:\Gayhub\hmall)
+22:29:45:953 DEBUG 3796 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+22:29:45:953  INFO 3796 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+22:29:46:635  INFO 3796 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+22:29:46:637  INFO 3796 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+22:29:46:661  INFO 3796 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+22:29:47:140  INFO 3796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+22:29:47:150  INFO 3796 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+22:29:47:150  INFO 3796 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+22:29:47:252  INFO 3796 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+22:29:47:252  INFO 3796 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1265 ms
+22:29:48:523  INFO 3796 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+22:29:48:856  INFO 3796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+22:29:48:857  INFO 3796 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+22:29:48:858  INFO 3796 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+22:29:48:885  INFO 3796 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+22:29:48:999  INFO 3796 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 3.466 seconds (JVM running for 4.53)
+22:31:49:625  INFO 29136 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.20.1 on cheeseee with PID 29136 (C:\Gayhub\hmall\cart-module\target\classes started by Cheeseee in C:\Gayhub\hmall)
+22:31:49:631 DEBUG 29136 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+22:31:49:632  INFO 29136 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+22:31:50:386  INFO 29136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+22:31:50:388  INFO 29136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+22:31:50:409  INFO 29136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+22:31:50:981  INFO 29136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+22:31:50:989  INFO 29136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+22:31:50:990  INFO 29136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+22:31:51:099  INFO 29136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+22:31:51:099  INFO 29136 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1422 ms
+22:31:52:460  INFO 29136 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+22:31:52:776  INFO 29136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+22:31:52:777  INFO 29136 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+22:31:52:781  INFO 29136 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+22:31:52:804  INFO 29136 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+22:31:52:820  INFO 29136 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 3.698 seconds (JVM running for 4.753)
+22:32:01:319  INFO 29136 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:32:01:320  INFO 29136 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+22:32:01:322  INFO 29136 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+22:45:01:752  INFO 22516 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.20.1 on cheeseee with PID 22516 (C:\Gayhub\hmall\cart-module\target\classes started by Cheeseee in C:\Gayhub\hmall)
+22:45:01:756 DEBUG 22516 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+22:45:01:756  INFO 22516 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+22:45:02:498  INFO 22516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+22:45:02:500  INFO 22516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+22:45:02:524  INFO 22516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+22:45:03:024  INFO 22516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+22:45:03:031  INFO 22516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+22:45:03:032  INFO 22516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+22:45:03:151  INFO 22516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+22:45:03:152  INFO 22516 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1356 ms
+22:45:04:537  INFO 22516 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+22:45:04:888  INFO 22516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+22:45:04:889  INFO 22516 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+22:45:04:890  INFO 22516 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+22:45:04:912  INFO 22516 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+22:45:05:012  INFO 22516 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 3.682 seconds (JVM running for 4.794)
+22:45:11:906  INFO 22516 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:45:11:907  INFO 22516 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+22:45:11:908  INFO 22516 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+22:45:19:978  INFO 22516 --- [http-nio-8081-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+22:45:20:451  INFO 22516 --- [http-nio-8081-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+22:45:20:457 DEBUG 22516 --- [http-nio-8081-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+22:45:20:475 DEBUG 22516 --- [http-nio-8081-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: null
+22:45:20:703 DEBUG 22516 --- [http-nio-8081-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+23:12:24:766  INFO 22516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+23:12:24:793  INFO 22516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+23:12:28:688  INFO 30708 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.20.1 on cheeseee with PID 30708 (C:\Gayhub\hmall\cart-module\target\classes started by Cheeseee in C:\Gayhub\hmall)
+23:12:28:691 DEBUG 30708 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:12:28:692  INFO 30708 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+23:12:29:386  INFO 30708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+23:12:29:387  INFO 30708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+23:12:29:413  INFO 30708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+23:12:29:873  INFO 30708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+23:12:29:880  INFO 30708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:12:29:880  INFO 30708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:12:29:975  INFO 30708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:12:29:975  INFO 30708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1229 ms
+23:12:31:367  INFO 30708 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+23:12:31:699  INFO 30708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+23:12:31:701  INFO 30708 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+23:12:31:703  INFO 30708 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+23:12:31:729  INFO 30708 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+23:12:31:838  INFO 30708 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 3.524 seconds (JVM running for 4.461)
+23:12:42:313  INFO 30708 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:12:42:315  INFO 30708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23:12:42:316  INFO 30708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+23:12:47:927  INFO 30708 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+23:12:48:344  INFO 30708 --- [http-nio-8081-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+23:12:48:352 DEBUG 30708 --- [http-nio-8081-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+23:12:48:385 DEBUG 30708 --- [http-nio-8081-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: null
+23:12:48:416 DEBUG 30708 --- [http-nio-8081-exec-3] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+23:14:49:290  INFO 30708 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+23:14:49:313  INFO 30708 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+23:14:54:962  INFO 26788 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.20.1 on cheeseee with PID 26788 (C:\Gayhub\hmall\cart-module\target\classes started by Cheeseee in C:\Gayhub\hmall)
+23:14:54:963 DEBUG 26788 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:14:54:964  INFO 26788 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+23:14:55:642  INFO 26788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+23:14:55:644  INFO 26788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+23:14:55:670  INFO 26788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+23:14:56:186  INFO 26788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+23:14:56:192  INFO 26788 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:14:56:193  INFO 26788 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:14:56:294  INFO 26788 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:14:56:295  INFO 26788 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1294 ms
+23:14:57:781  INFO 26788 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+23:14:58:228  INFO 26788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+23:14:58:230  INFO 26788 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+23:14:58:235  INFO 26788 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+23:14:58:263  INFO 26788 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+23:14:58:385  INFO 26788 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 3.775 seconds (JVM running for 4.692)
+23:15:09:606  INFO 26788 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:15:09:607  INFO 26788 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23:15:09:608  INFO 26788 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+23:15:09:704  INFO 26788 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+23:15:09:984  INFO 26788 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+23:15:09:991 DEBUG 26788 --- [http-nio-8081-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+23:15:10:009 DEBUG 26788 --- [http-nio-8081-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+23:15:10:035 DEBUG 26788 --- [http-nio-8081-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+23:38:13:253 DEBUG 26788 --- [http-nio-8081-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+23:38:13:254 DEBUG 26788 --- [http-nio-8081-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+23:38:13:257 DEBUG 26788 --- [http-nio-8081-exec-7] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+23:41:30:148 DEBUG 26788 --- [http-nio-8081-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+23:41:30:149 DEBUG 26788 --- [http-nio-8081-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+23:41:30:152 DEBUG 26788 --- [http-nio-8081-exec-3] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+23:46:53:638  INFO 26788 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+23:46:53:663  INFO 26788 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+23:46:57:494  INFO 23396 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.20.1 on cheeseee with PID 23396 (C:\Gayhub\hmall\cart-module\target\classes started by Cheeseee in C:\Gayhub\hmall)
+23:46:57:497 DEBUG 23396 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:46:57:497  INFO 23396 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+23:46:58:316  INFO 23396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+23:46:58:318  INFO 23396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+23:46:58:342  INFO 23396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+23:46:58:844  INFO 23396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+23:46:58:853  INFO 23396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:46:58:854  INFO 23396 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:46:58:972  INFO 23396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:46:58:972  INFO 23396 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1426 ms
+23:46:59:160  INFO 21600 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.20.1 on cheeseee with PID 21600 (C:\Gayhub\hmall\item-service\target\classes started by Cheeseee in C:\Gayhub\hmall)
+23:46:59:165 DEBUG 21600 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:46:59:166  INFO 21600 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+23:47:00:089  INFO 21600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+23:47:00:095  INFO 21600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+23:47:00:120  INFO 21600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+23:47:00:720  INFO 21600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+23:47:00:731  INFO 21600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:47:00:732  INFO 21600 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:47:00:873  INFO 21600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:47:00:874  INFO 21600 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1650 ms
+23:47:00:882  INFO 23396 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+23:47:01:195  INFO 21360 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.20.1 on cheeseee with PID 21360 (C:\Gayhub\hmall\hm-service\target\classes started by Cheeseee in C:\Gayhub\hmall)
+23:47:01:197 DEBUG 21360 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:47:01:198  INFO 21360 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+23:47:01:347  INFO 23396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+23:47:01:347  INFO 23396 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+23:47:01:349  INFO 23396 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+23:47:01:387  INFO 23396 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+23:47:01:561  INFO 23396 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 4.478 seconds (JVM running for 5.38)
+23:47:02:131  INFO 21360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+23:47:02:134  INFO 21360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+23:47:02:186  INFO 21360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+23:47:02:746  INFO 21600 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+23:47:02:765  INFO 21360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23:47:02:776  INFO 21360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:47:02:777  INFO 21360 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:47:02:899  INFO 21360 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:47:02:900  INFO 21360 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1663 ms
+23:47:03:030  INFO 28080 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.20.1 on cheeseee with PID 28080 (C:\Gayhub\hmall\item-service\target\classes started by Cheeseee in C:\Gayhub\hmall)
+23:47:03:032 DEBUG 28080 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:47:03:032  INFO 28080 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+23:47:03:143  INFO 21600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+23:47:03:145  INFO 21600 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+23:47:03:147  INFO 21600 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+23:47:03:173  INFO 21600 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+23:47:03:323  INFO 21600 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 4.595 seconds (JVM running for 5.524)
+23:47:03:806  INFO 28080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+23:47:03:812  INFO 28080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+23:47:03:843  INFO 28080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+23:47:04:323  INFO 28080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+23:47:04:331  INFO 28080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:47:04:331  INFO 28080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:47:04:430  INFO 28080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:47:04:430  INFO 28080 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1357 ms
+23:47:05:022  INFO 21360 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+23:47:05:324  INFO 21360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23:47:05:326  INFO 21360 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+23:47:05:328  INFO 21360 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+23:47:05:356  INFO 21360 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+23:47:05:522  INFO 21360 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 4.844 seconds (JVM running for 5.98)
+23:47:05:755  INFO 28080 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+23:47:06:082  INFO 28080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+23:47:06:083  INFO 28080 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+23:47:06:085  INFO 28080 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+23:47:06:108  INFO 28080 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+23:47:06:220  INFO 28080 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 3.643 seconds (JVM running for 4.774)
+23:47:24:945  INFO 23396 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:47:24:947  INFO 23396 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23:47:24:948  INFO 23396 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+23:47:25:044  INFO 23396 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+23:47:25:351  INFO 23396 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+23:47:25:358 DEBUG 23396 --- [http-nio-8081-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+23:47:25:376 DEBUG 23396 --- [http-nio-8081-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+23:47:25:395 DEBUG 23396 --- [http-nio-8081-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+23:51:03:830 DEBUG 23396 --- [http-nio-8081-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+23:51:03:830 DEBUG 23396 --- [http-nio-8081-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+23:51:03:831 DEBUG 23396 --- [http-nio-8081-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+23:52:48:150  INFO 23396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+23:52:48:173  INFO 23396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+23:52:50:578  INFO 30284 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.20.1 on cheeseee with PID 30284 (C:\Gayhub\hmall\cart-module\target\classes started by Cheeseee in C:\Gayhub\hmall)
+23:52:50:580 DEBUG 30284 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:52:50:581  INFO 30284 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+23:52:51:291  INFO 30284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+23:52:51:293  INFO 30284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+23:52:51:318  INFO 30284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+23:52:51:771  INFO 30284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+23:52:51:778  INFO 30284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:52:51:779  INFO 30284 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:52:51:880  INFO 30284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:52:51:880  INFO 30284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1256 ms
+23:52:53:186  INFO 30284 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+23:52:53:518  INFO 30284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+23:52:53:519  INFO 30284 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+23:52:53:521  INFO 30284 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+23:52:53:541  INFO 30284 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+23:52:53:628  INFO 30284 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 3.406 seconds (JVM running for 4.297)
+23:53:21:996  INFO 30284 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:53:21:996  INFO 30284 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23:53:21:998  INFO 30284 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+23:53:22:093  INFO 30284 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+23:53:22:341  INFO 30284 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+23:53:22:349 DEBUG 30284 --- [http-nio-8081-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+23:53:22:367 DEBUG 30284 --- [http-nio-8081-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+23:53:22:386 DEBUG 30284 --- [http-nio-8081-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+23:57:37:148  INFO 26468 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.20.1 on cheeseee with PID 26468 (C:\Gayhub\hmall\item-service\target\classes started by Cheeseee in C:\Gayhub\hmall)
+23:57:37:154 DEBUG 26468 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:57:37:155  INFO 26468 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+23:57:37:927  INFO 26468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+23:57:37:931  INFO 26468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+23:57:37:957  INFO 26468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+23:57:38:416  INFO 30284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+23:57:38:472  INFO 30284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+23:57:38:534  INFO 26468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+23:57:38:543  INFO 26468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:57:38:544  INFO 26468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:57:38:642  INFO 26468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:57:38:642  INFO 26468 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1409 ms
+23:57:40:357  INFO 26468 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+23:57:40:743  INFO 26468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+23:57:40:744  INFO 26468 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+23:57:40:748  INFO 26468 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+23:57:40:775  INFO 26468 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+23:57:40:928  INFO 26468 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 4.192 seconds (JVM running for 5.121)
+23:57:41:289  INFO 24276 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.20.1 on cheeseee with PID 24276 (C:\Gayhub\hmall\cart-module\target\classes started by Cheeseee in C:\Gayhub\hmall)
+23:57:41:292 DEBUG 24276 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:57:41:293  INFO 24276 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+23:57:42:047  INFO 24276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+23:57:42:050  INFO 24276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+23:57:42:071  INFO 24276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+23:57:42:531  INFO 24276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+23:57:42:538  INFO 24276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:57:42:539  INFO 24276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:57:42:646  INFO 24276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:57:42:646  INFO 24276 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1320 ms
+23:57:44:142  INFO 24276 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+23:57:44:498  INFO 24276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+23:57:44:499  INFO 24276 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+23:57:44:501  INFO 24276 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+23:57:44:527  INFO 24276 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+23:57:44:625  INFO 24276 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 3.748 seconds (JVM running for 4.772)
+23:58:17:621  INFO 24276 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:58:17:621  INFO 24276 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23:58:17:622  INFO 24276 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+23:58:17:709  INFO 24276 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+23:58:17:964  INFO 24276 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+23:58:17:968 DEBUG 24276 --- [http-nio-8081-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+23:58:17:985 DEBUG 24276 --- [http-nio-8081-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+23:58:18:052 DEBUG 24276 --- [http-nio-8081-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+23:58:18:176  INFO 26468 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:58:18:178  INFO 26468 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23:58:18:180  INFO 26468 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+23:58:18:239  INFO 26468 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+23:58:18:464  INFO 26468 --- [http-nio-8082-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+23:58:18:469 DEBUG 26468 --- [http-nio-8082-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id IN ( ? )
+23:58:18:484 DEBUG 26468 --- [http-nio-8082-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 100000006163(Long)
+23:58:18:532 DEBUG 26468 --- [http-nio-8082-exec-1] c.h.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+00:22:09:483  INFO 24276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+00:22:09:517  INFO 24276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+00:22:09:531  INFO 26468 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+00:22:09:556  INFO 26468 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+00:26:04:779  INFO 9668 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.20.1 on cheeseee with PID 9668 (C:\Gayhub\hmall\item-service\target\classes started by Cheeseee in C:\Gayhub\hmall)
+00:26:04:781 DEBUG 9668 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+00:26:04:781  INFO 9668 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+00:26:05:616  INFO 9668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+00:26:05:618  INFO 9668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+00:26:05:661  INFO 9668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+00:26:05:848  INFO 9668 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=32bdadcd-848c-3529-9c3c-082c59bd9498
+00:26:06:155  INFO 9668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+00:26:06:166  INFO 9668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+00:26:06:167  INFO 9668 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+00:26:06:278  INFO 9668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+00:26:06:278  INFO 9668 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1461 ms
+00:26:08:699  INFO 9668 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+00:26:09:582  INFO 9668 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of fffb6fbd-cec2-41a0-bc14-69cb3ba0e851
+00:26:09:628  INFO 9668 --- [main] org.reflections.Reflections              : Reflections took 26 ms to scan 1 urls, producing 3 keys and 6 values 
+00:26:09:649  INFO 9668 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+00:26:09:657  INFO 9668 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 3 keys and 10 values 
+00:26:09:662  WARN 9668 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+00:26:09:668  INFO 9668 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 1 keys and 5 values 
+00:26:09:677  INFO 9668 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 1 keys and 7 values 
+00:26:09:686  INFO 9668 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 2 keys and 8 values 
+00:26:09:688  WARN 9668 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+00:26:09:689  INFO 9668 --- [main] com.alibaba.nacos.common.remote.client   : [fffb6fbd-cec2-41a0-bc14-69cb3ba0e851] RpcClient init label, labels = {module=naming, source=sdk}
+00:26:09:692  INFO 9668 --- [main] com.alibaba.nacos.common.remote.client   : [fffb6fbd-cec2-41a0-bc14-69cb3ba0e851] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+00:26:09:693  INFO 9668 --- [main] com.alibaba.nacos.common.remote.client   : [fffb6fbd-cec2-41a0-bc14-69cb3ba0e851] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+00:26:09:694  INFO 9668 --- [main] com.alibaba.nacos.common.remote.client   : [fffb6fbd-cec2-41a0-bc14-69cb3ba0e851] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+00:26:09:695  INFO 9668 --- [main] com.alibaba.nacos.common.remote.client   : [fffb6fbd-cec2-41a0-bc14-69cb3ba0e851] Try to connect to server on start up, server: {serverIp = '192.168.6.102', server main port = 8848}
+00:26:12:008  INFO 9668 --- [main] com.alibaba.nacos.common.remote.client   : [fffb6fbd-cec2-41a0-bc14-69cb3ba0e851] Success to connect to server [192.168.6.102:8848] on start up, connectionId = 1718382371807_192.168.6.1_62339
+00:26:12:009  INFO 9668 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [fffb6fbd-cec2-41a0-bc14-69cb3ba0e851] Notify connected event to listeners.
+00:26:12:011  INFO 9668 --- [main] com.alibaba.nacos.common.remote.client   : [fffb6fbd-cec2-41a0-bc14-69cb3ba0e851] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+00:26:12:012  INFO 9668 --- [main] com.alibaba.nacos.common.remote.client   : [fffb6fbd-cec2-41a0-bc14-69cb3ba0e851] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1062/0x0000000800869440
+00:26:12:155  INFO 9668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+00:26:12:185  INFO 9668 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-service 192.168.5.3:8082 register finished
+00:26:12:725  INFO 9668 --- [nacos-grpc-client-executor-11] com.alibaba.nacos.common.remote.client   : [fffb6fbd-cec2-41a0-bc14-69cb3ba0e851] Receive server push request, request = NotifySubscriberRequest, requestId = 1
+00:26:12:726  INFO 9668 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+00:26:12:730  INFO 9668 --- [nacos-grpc-client-executor-11] com.alibaba.nacos.common.remote.client   : [fffb6fbd-cec2-41a0-bc14-69cb3ba0e851] Ack server push request, request = NotifySubscriberRequest, requestId = 1
+00:26:12:731  INFO 9668 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+00:26:12:771  INFO 9668 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+00:26:12:915  INFO 9668 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 9.189 seconds (JVM running for 10.375)
+00:27:01:969  INFO 28624 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.20.1 on cheeseee with PID 28624 (C:\Gayhub\hmall\item-service\target\classes started by Cheeseee in C:\Gayhub\hmall)
+00:27:01:971 DEBUG 28624 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+00:27:01:972  INFO 28624 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+00:27:02:929  INFO 28624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+00:27:02:936  INFO 28624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+00:27:02:983  INFO 28624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+00:27:03:221  INFO 28624 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=32bdadcd-848c-3529-9c3c-082c59bd9498
+00:27:03:552  INFO 28624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+00:27:03:559  INFO 28624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+00:27:03:560  INFO 28624 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+00:27:03:676  INFO 28624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+00:27:03:676  INFO 28624 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1661 ms
+00:27:06:087  INFO 28624 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+00:27:07:036  INFO 28624 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of e052a111-9a63-4b46-9588-08d2eec72f7a
+00:27:07:082  INFO 28624 --- [main] org.reflections.Reflections              : Reflections took 24 ms to scan 1 urls, producing 3 keys and 6 values 
+00:27:07:106  INFO 28624 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 4 keys and 9 values 
+00:27:07:115  INFO 28624 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 3 keys and 10 values 
+00:27:07:119  WARN 28624 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+00:27:07:125  INFO 28624 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 1 keys and 5 values 
+00:27:07:134  INFO 28624 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 1 keys and 7 values 
+00:27:07:141  INFO 28624 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 2 keys and 8 values 
+00:27:07:145  WARN 28624 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+00:27:07:146  INFO 28624 --- [main] com.alibaba.nacos.common.remote.client   : [e052a111-9a63-4b46-9588-08d2eec72f7a] RpcClient init label, labels = {module=naming, source=sdk}
+00:27:07:149  INFO 28624 --- [main] com.alibaba.nacos.common.remote.client   : [e052a111-9a63-4b46-9588-08d2eec72f7a] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+00:27:07:150  INFO 28624 --- [main] com.alibaba.nacos.common.remote.client   : [e052a111-9a63-4b46-9588-08d2eec72f7a] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+00:27:07:150  INFO 28624 --- [main] com.alibaba.nacos.common.remote.client   : [e052a111-9a63-4b46-9588-08d2eec72f7a] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+00:27:07:151  INFO 28624 --- [main] com.alibaba.nacos.common.remote.client   : [e052a111-9a63-4b46-9588-08d2eec72f7a] Try to connect to server on start up, server: {serverIp = '192.168.6.102', server main port = 8848}
+00:27:09:015  INFO 28624 --- [main] com.alibaba.nacos.common.remote.client   : [e052a111-9a63-4b46-9588-08d2eec72f7a] Success to connect to server [192.168.6.102:8848] on start up, connectionId = 1718382428922_192.168.6.1_61375
+00:27:09:016  INFO 28624 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [e052a111-9a63-4b46-9588-08d2eec72f7a] Notify connected event to listeners.
+00:27:09:017  INFO 28624 --- [main] com.alibaba.nacos.common.remote.client   : [e052a111-9a63-4b46-9588-08d2eec72f7a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+00:27:09:018  INFO 28624 --- [main] com.alibaba.nacos.common.remote.client   : [e052a111-9a63-4b46-9588-08d2eec72f7a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1062/0x0000000800742440
+00:27:09:095  INFO 28624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+00:27:09:109  INFO 28624 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-service 192.168.5.3:8083 register finished
+00:27:09:587  INFO 9668 --- [nacos-grpc-client-executor-33] com.alibaba.nacos.common.remote.client   : [fffb6fbd-cec2-41a0-bc14-69cb3ba0e851] Receive server push request, request = NotifySubscriberRequest, requestId = 2
+00:27:09:590  INFO 9668 --- [nacos-grpc-client-executor-33] com.alibaba.nacos.common.remote.client   : [fffb6fbd-cec2-41a0-bc14-69cb3ba0e851] Ack server push request, request = NotifySubscriberRequest, requestId = 2
+00:27:09:601  INFO 28624 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [e052a111-9a63-4b46-9588-08d2eec72f7a] Receive server push request, request = NotifySubscriberRequest, requestId = 3
+00:27:09:603  INFO 28624 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [e052a111-9a63-4b46-9588-08d2eec72f7a] Ack server push request, request = NotifySubscriberRequest, requestId = 3
+00:27:09:625  INFO 28624 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+00:27:09:629  INFO 28624 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+00:27:09:653  INFO 28624 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+00:27:09:782  INFO 28624 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 8.959 seconds (JVM running for 10.065)
+00:31:42:137  WARN 28624 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:31:42:137  WARN 28624 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:31:42:138  WARN 28624 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:31:42:140  WARN 28624 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:31:42:183  WARN 9668 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:31:42:183  WARN 9668 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:31:42:185  WARN 9668 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:31:42:186  WARN 9668 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:31:42:633  INFO 28624 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:31:42:640  INFO 28624 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:31:42:653  INFO 9668 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:31:42:657  INFO 9668 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:31:42:974  INFO 28624 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+00:31:42:974  INFO 28624 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@6a10262b[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+00:31:42:975  INFO 28624 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1718382428922_192.168.6.1_61375
+00:31:42:978  INFO 28624 --- [nacos-grpc-client-executor-82] c.a.n.c.remote.client.grpc.GrpcClient    : [1718382428922_192.168.6.1_61375]Ignore complete event,isRunning:false,isAbandon=false
+00:31:42:989  INFO 28624 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@3b10f6f5[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 83]
+00:31:42:989  INFO 9668 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+00:31:42:990  INFO 9668 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@762eddfe[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+00:31:42:991  INFO 9668 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1718382371807_192.168.6.1_62339
+00:31:42:999  INFO 9668 --- [nacos-grpc-client-executor-106] c.a.n.c.remote.client.grpc.GrpcClient    : [1718382371807_192.168.6.1_62339]Ignore complete event,isRunning:false,isAbandon=false
+00:31:43:005  INFO 9668 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@40f796ef[Running, pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 107]
