@@ -13,6 +13,7 @@ import org.apache.ibatis.annotations.Update;
  * @author 虎哥
  * @since 2023-05-05
  */
+
 public interface ItemMapper extends BaseMapper<Item> {
 
     @Update("UPDATE item SET stock = stock - #{num} WHERE id = #{itemId}")
