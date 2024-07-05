@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   application:
-    name: cart-module
+    name: cart-service
   profiles:
     active: dev
   datasource:
