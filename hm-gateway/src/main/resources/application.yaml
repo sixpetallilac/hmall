@@ -1,32 +1,5 @@
 server:
   port: 8080
-spring:
-  application:
-    name: hm-gateway
-  cloud:
-    nacos:
-      server-addr: 192.168.6.102:8848
-    gateway:
-      routes:
-        - id: item-service
-          uri: lb://item-service
-          predicates:
-            - Path=/items/**,/search/**
-          filters:
-            - AddRequestHeader=testrl, test sentenceaaaa
-
-        - id: user-service
-          uri: lb://user-service
-          predicates:
-            - Path=/addresses/**,/users/**
-
-        - id: cart-service
-          uri: lb://cart-service
-          predicates:
-            - Path=/carts/**
-
-      default-filters:
-        - PrintAny= 1,2,3
 hm:
   jwt:
     location: classpath:hmall.jks
