@@ -1,7 +1,14 @@
 server:
   port: 8081
+  tomcat:
+    threads:
+      max: 50
+    accept-count: 50
+    max-connections: 200
 feign:
   okhttp:
+    enabled: true
+  sentinel:
     enabled: true
 hm:
   db:
@@ -10,5 +17,11 @@ hm:
     title: "购物车接口"
     description: "购物车接口"
     respackage: com.hmall.cart.controller
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8090
+      http-method-specify: true # 开启请求方式前缀
 
 

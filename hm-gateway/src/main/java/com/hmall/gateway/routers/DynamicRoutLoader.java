@@ -64,7 +64,5 @@ public class DynamicRoutLoader {
             //3.1 记录路由ID 便于下一次更新时候删除
             routeIds.add(routeDefinition.getId());
         }
-
     }
-
 }
