@@ -1,4 +1,4 @@
-package com.trade.domain.dto;
+package com.hmall.trade.domain.dto;
 
 import com.hmall.api.domain.dto.OrderDetailDTO;
 import io.swagger.annotations.ApiModel;

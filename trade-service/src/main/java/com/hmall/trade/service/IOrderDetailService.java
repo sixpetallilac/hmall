@@ -1,7 +1,7 @@
-package com.trade.service;
+package com.hmall.trade.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.trade.domain.po.OrderDetail;
+import com.hmall.trade.domain.po.OrderDetail;
 
 
 /**

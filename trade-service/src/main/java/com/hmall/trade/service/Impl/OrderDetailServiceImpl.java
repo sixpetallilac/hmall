@@ -1,9 +1,9 @@
-package com.trade.service.Impl;
+package com.hmall.trade.service.Impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.trade.domain.po.OrderDetail;
-import com.trade.mapper.OrderDetailMapper;
-import com.trade.service.IOrderDetailService;
+import com.hmall.trade.domain.po.OrderDetail;
+import com.hmall.trade.mapper.OrderDetailMapper;
+import com.hmall.trade.service.IOrderDetailService;
 import org.springframework.stereotype.Service;
 
 /**
