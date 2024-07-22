@@ -1,0 +1,9 @@
+server:
+  port: 8082
+hm:
+  swagger:
+    respackage: com.hmall.item.controller
+    title: "item接口"
+    description: "item接口"
+  db:
+    database: hm-item
