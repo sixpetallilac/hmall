@@ -21,5 +21,5 @@ public interface ItemClient {
     void deductStock(@RequestBody List<OrderDetailDTO> items);
 
     @PutMapping("/items/stock/restore")
-    void restoreStock(List<OrderDetailDTO> orderDetailDTOS);
+    void restoreStock(@RequestBody List<OrderDetailDTO> orderDetailDTOS);
 }

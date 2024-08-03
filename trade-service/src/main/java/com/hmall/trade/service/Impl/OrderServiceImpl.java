@@ -118,11 +118,12 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
                 .eq(Order::getId, orderId)
                 .update();
         //2.设置交易单关闭
-        payClient.updatePayOrderByBizOrderNo(orderId,5);
+        payClient.updatePayOrderByBizOrderNo(orderId,5);//每新写一个client方法 需要对应的写出fallback逻辑
         //3.恢复库存
+        //数据汇总传到client
         List<OrderDetail> list = detailService.lambdaQuery().eq(OrderDetail::getOrderId, orderId).list();
         List<OrderDetailDTO> orderDetailDTOS = BeanUtil.copyToList(list, OrderDetailDTO.class);
-        itemClient.restoreStock(orderDetailDTOS);
+        itemClient.restoreStock(orderDetailDTOS);//每新写一个client方法 需要对应的写出fallback逻辑
     }
 
     private List<OrderDetail> buildDetails(Long orderId, List<ItemDTO> items, Map<Long, Integer> numMap) {
