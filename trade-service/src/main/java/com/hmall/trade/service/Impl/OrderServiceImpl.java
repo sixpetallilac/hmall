@@ -1,21 +1,26 @@
 package com.hmall.trade.service.Impl;
 
 
+import cn.hutool.core.bean.BeanUtil;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hmall.api.client.CartClient;
 import com.hmall.api.client.ItemClient;
+import com.hmall.api.client.PayClient;
 import com.hmall.api.domain.dto.ItemDTO;
 import com.hmall.api.domain.dto.OrderDetailDTO;
+import com.hmall.common.MqOption.MessagePostOption;
 import com.hmall.common.exception.BadRequestException;
 import com.hmall.common.utils.UserContext;
+import com.hmall.trade.constant.MqConstant;
+import com.hmall.trade.domain.dto.OrderFormDTO;
 import com.hmall.trade.domain.po.Order;
 import com.hmall.trade.domain.po.OrderDetail;
-import com.hmall.trade.domain.dto.OrderFormDTO;
 import com.hmall.trade.mapper.OrderMapper;
 import com.hmall.trade.service.IOrderDetailService;
 import com.hmall.trade.service.IOrderService;
 import io.seata.spring.annotation.GlobalTransactional;
 import lombok.RequiredArgsConstructor;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -38,8 +43,10 @@ import java.util.stream.Collectors;
 public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements IOrderService {
 
     private final ItemClient itemClient;
+    private final PayClient payClient;
     private final IOrderDetailService detailService;//already
     private final CartClient cartClient;
+    private final RabbitTemplate rabbitTemplate;
 
     @Override
     @GlobalTransactional
@@ -83,7 +90,14 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
         } catch (Exception e) {
             throw new RuntimeException("库存不足！");
         }
+        //MQ 5.订单支付状态
+        rabbitTemplate.convertAndSend(
+                MqConstant.DELAY_EXCHANGE_NAME,
+                MqConstant.DELAY_ORDER_KEY,
+                order.getId(),
+                MessagePostOption.messageDelaySet(3000));
         return order.getId();
+
     }
 
     @Override
@@ -93,6 +107,22 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
         order.setStatus(2);
         order.setPayTime(LocalDateTime.now());
         updateById(order);
+    }
+
+    @Override
+    public void cancelOrder(Long orderId) {
+        //todo 标记订单已关闭、恢复库存 （1. 2.业务幂等性，本身逻辑其实也包含了业务幂等性）
+        //1.设置订单关闭
+        lambdaUpdate()
+                .set(Order::getStatus, 5)
+                .eq(Order::getId, orderId)
+                .update();
+        //2.设置交易单关闭
+        payClient.updatePayOrderByBizOrderNo(orderId,5);
+        //3.恢复库存
+        List<OrderDetail> list = detailService.lambdaQuery().eq(OrderDetail::getOrderId, orderId).list();
+        List<OrderDetailDTO> orderDetailDTOS = BeanUtil.copyToList(list, OrderDetailDTO.class);
+        itemClient.restoreStock(orderDetailDTOS);
     }
 
     private List<OrderDetail> buildDetails(Long orderId, List<ItemDTO> items, Map<Long, Integer> numMap) {

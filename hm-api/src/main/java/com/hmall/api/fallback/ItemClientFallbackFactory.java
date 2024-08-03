@@ -11,7 +11,7 @@ import java.util.Collection;
 import java.util.List;
 
 @Slf4j
-public class ItenClientFallbackFactory implements FallbackFactory<ItemClient> {
+public class ItemClientFallbackFactory implements FallbackFactory<ItemClient> {
 
 
     @Override
@@ -27,6 +27,12 @@ public class ItenClientFallbackFactory implements FallbackFactory<ItemClient> {
             public void deductStock(List<OrderDetailDTO> items) {
                 log.error("扣减商品库存失败",cause);
                 throw new RuntimeException(cause);//todo 业务不知道怎么处理的时候抛出异常即可
+            }
+
+            @Override
+            public void restoreStock(List<OrderDetailDTO> orderDetailDTOS) {
+                log.error("恢复商品库存失败",cause);
+                throw new RuntimeException(cause);
             }
         };
     }

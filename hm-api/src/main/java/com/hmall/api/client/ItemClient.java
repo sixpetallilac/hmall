@@ -3,7 +3,7 @@ package com.hmall.api.client;
 
 import com.hmall.api.domain.dto.ItemDTO;
 import com.hmall.api.domain.dto.OrderDetailDTO;
-import com.hmall.api.fallback.ItenClientFallbackFactory;
+import com.hmall.api.fallback.ItemClientFallbackFactory;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -13,11 +13,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Collection;
 import java.util.List;
 
-@FeignClient(value = "item-service", fallbackFactory = ItenClientFallbackFactory.class)
+@FeignClient(value = "item-service", fallbackFactory = ItemClientFallbackFactory.class)
 public interface ItemClient {
     @GetMapping("/items")
     List<ItemDTO> queryItemByIds(@RequestParam("ids") Collection<Long> ids);
     @PutMapping("/items/stock/deduct")
-    public void deductStock(@RequestBody List<OrderDetailDTO> items);
+    void deductStock(@RequestBody List<OrderDetailDTO> items);
 
+    @PutMapping("/items/stock/restore")
+    void restoreStock(List<OrderDetailDTO> orderDetailDTOS);
 }

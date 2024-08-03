@@ -3,22 +3,20 @@ server:
 feign:
   okhttp:
     enabled: true
-  sentinel:
-    enabled: true
 hm:
   db:
     database: hm-trade
   swagger:
     title: "trade接口"
     description: "trade接口"
-    respackage: com.trade.controller
-spring:
-  rabbitmq:
-    host: 192.168.6.130
-    port: 5672
-    virtual-host: /hmall
-    username: hmall
-    password: 123456
+    respackage: com.hmall.trade.controller
+#spring:
+#  rabbitmq:
+#    host: 192.168.6.130
+#    port: 5672
+#    virtual-host: /hmall
+#    username: hmall
+#    password: 123456
 #knife4j:
 #  enable: true
 #  openapi:
