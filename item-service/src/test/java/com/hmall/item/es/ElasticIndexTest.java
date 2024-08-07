@@ -40,10 +40,17 @@ public class ElasticIndexTest {
         System.out.println(exists);
     }
     @Test
-    void testDelete() throws IOException {
+    void testDeleteIndex() throws IOException {
         DeleteIndexRequest request = new DeleteIndexRequest("items");
         restHighLevelClient.indices().delete(request,RequestOptions.DEFAULT);
     }
+
+
+
+
+
+
+
 
     @BeforeEach
     void setUp(){
